@@ -3,7 +3,7 @@
 
 def fact_of_fact(n):
     result = 1
-    for i in range(n, 1, -1):
+    for i in range(n, 1, -1): # We can stop at 1 since multiplying by 1 n times isn't going to change the result
         result *= i ** (n-i+1)
     return result
 

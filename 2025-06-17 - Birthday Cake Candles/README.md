@@ -51,7 +51,7 @@ for each candle in list:
 return counter
 
 ## Implement
-
+```
 def birthdayCakeCandles(candles):
     counter = 0
     if len(candles) > 0:
@@ -63,21 +63,24 @@ def birthdayCakeCandles(candles):
             if current_max == candle:
                 counter += 1
     return counter
+```
 
 ## Review
 
 Run test cases to ensure correctness:
 
+```
 print(birthdayCakeCandles([4, 4, 1, 3]))  # Output: 2
 print(birthdayCakeCandles([1, 1, 1, 1]))  # Output: 4
 print(birthdayCakeCandles([]))           # Output: 0
 print(birthdayCakeCandles([5]))          # Output: 1
+```
 
 ## Evaluate
 
-Time Complexity: O(n) – Each element is visited once
-Space Complexity: O(1) – Only two variables used
-Trade-offs: Optimal in both speed and memory usage; handles all edge cases without extra data structures
+- Time Complexity: O(n) – Each element is visited once
+- Space Complexity: O(1) – Only two variables used
+- Trade-offs: Optimal in both speed and memory usage; handles all edge cases without extra data structures
 
 ## Running the Code
 

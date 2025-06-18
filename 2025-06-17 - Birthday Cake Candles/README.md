@@ -19,7 +19,7 @@ Break the problem into I/O, constraints, and edge cases:
 - **Input**: A list of integers representing candle heights (e.g., `[4, 4, 1, 3]`)
 - **Output**: An integer representing how many candles are the tallest
 - **Constraints**:
-  - 0 ≤ number of candles ≤ 10⁵
+  - 0 ≤ number of candles ≤ 100
   - Candle heights are non-negative integers
 - **Edge Cases**:
   - Empty list (`[]`) → return `0`

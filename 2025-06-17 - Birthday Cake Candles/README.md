@@ -38,6 +38,7 @@ Use a single-pass linear approach with two variables:
 2. `counter` – to count how many times this height occurs
 
 **Pseudocode**:
+```
 if list is empty:
     return 0
 initialize current_max as first candle
@@ -49,6 +50,7 @@ for each candle in list:
     if candle == current_max: # Which counts the newly switched to max
         increment counter
 return counter
+```
 
 ## Implement
 ```
